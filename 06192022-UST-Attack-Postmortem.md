@@ -24,7 +24,7 @@ The following postmortum outlines the key events leading up to the "de-pegging" 
 | 2022-05-14 | The official circulating supply of LUNA hits 6.5 trillion tokens. Most likely caused by Luna Foundation Guard efforts to defend the UST peg with a "broken swap algo" |
 | 2022-05-16 | Luna Foundation Guard reveales the status of their reserve fund on Twitter, as well as the fact that they had burnt billions of dollars trying to save UST from collapse. [Reference link](https://twitter.com/LFG_org/status/1526126708193054721?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1526126708193054721%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnews.coincu.com%2F90055-fall-of-terra%2F) |
 | 2022-05-17 | Despite advice from CZ that a forked chain is worthless and against the will of the ecosystem at large Terra governance decides to create a new chain. The new chain will be Terra v2 without the algorithmic stablecoin. At this point TFL & LFG largely abandons their failed v1 experiment. |
-| 2022-05-18 | Terra Rebels is founded in an effort to preseve the Terra Classic code after TFL & LFG have seemingly abandoned their responsibilities. |
+| 2022-05-18 | Terra Rebels is founded in an effort to preserve the Terra Classic code after TFL & LFG have seemingly abandoned their responsibilities. |
 | 2022-06-05 | Terra Rebels submit 3 different PRs to Terra Money in order to re-enable functionality that was disabled without a proper governance vote. |
 | 2022-06-12 | Terra Rebels begin working on "burn tax" proposals. |
 | 2022-06-19 | Terra Rebels have yet to hear anything from TFL & LFG. |
