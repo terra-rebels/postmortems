@@ -1,4 +1,4 @@
-# SecOps review of Terra Classic code base
+# SecOps review of Terra Classic
 
 ## Summary
 
