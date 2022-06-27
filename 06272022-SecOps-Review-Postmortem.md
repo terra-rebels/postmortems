@@ -2,7 +2,7 @@
 
 ## Summary
 
-The following postmortum outlines HIGH severity vulnerabilities across the main components of the terra code base that are considered a priority to fix. It is understood that most of these problems are based on upstream dependencies and it might not always be possible or beneficial to do so. This however does not remove the need to provide transparence about where potential future attacks could come from and how we can potentially guard against it.
+The following postmortum outlines HIGH severity vulnerabilities across the main components of the terra code base that are considered a priority to fix. The scan was performed using SNYK and the Terra Rebels org can be found [here](https://app.snyk.io/org/zaradardfds). It is understood that most of these problems are based on upstream dependencies and it might not always be possible or beneficial to try to fix them, however this does not remove the need to provide transparency about where potential future attacks could come from and how we can guard against them.
 
 
 ## Timeline
