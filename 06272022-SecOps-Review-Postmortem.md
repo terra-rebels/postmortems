@@ -9,7 +9,7 @@ The following postmortum outlines HIGH severity vulnerabilities across the main 
 
 | Time | Event |
 | --- | --- |
-| 2022-06-27 | [CVE-2022-25878](https://security.snyk.io/vuln/SNYK-JS-PROTOBUFJS-2441248) identified in terra.proto reposi½tory |
+| 2022-06-27 | [CVE-2022-25878](https://security.snyk.io/vuln/SNYK-JS-PROTOBUFJS-2441248) identified in terra.proto repository |
 | 2022-06-27 | [CVE-2022-25878](https://security.snyk.io/vuln/SNYK-JS-PROTOBUFJS-2441248) identified in msg-reader repository |
 | 2022-06-27 | [CWE-327] Use of a Broken or Risky Cryptographic Algorithm in oracle-feeder repository |
 | 2022-06-27 | [CVE-2021-3807](https://security.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908) identified in ledger-terra-js repository |
