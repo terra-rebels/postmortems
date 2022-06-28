@@ -85,7 +85,7 @@ The following postmortum outlines HIGH severity vulnerabilities across the main 
 
 - Patch CVE-2022-25878 in terra.proto repository by upgrading to protobufjs@6.11.3
 - Patch CVE-2022-25878 in msg-reader repository by upgrading to protobufjs@6.11.3
-- Patch CWE-327 by upgrading Cryptographic Algorithm in oracle-feeder repository
+- Patch CWE-327 by upgrading Cryptographic Algorithm in oracle-feeder repository [FIXED]([0745b843581f5558923280b5c461bcf852c42665](https://github.com/terra-rebels/oracle-feeder/commit/0745b843581f5558923280b5c461bcf852c42665)
 - Patch CVE-2021-3807 by upgrading to ansi-regex@6.0.1 in ledger-terra-js repository
 - Patch CVE-2021-3807 by upgrading to ansi-regex@6.0.1 in station-extension repository
 - Patch CVE-2021-3807 by upgrading to ansi-regex@6.0.1 in station repository
