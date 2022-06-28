@@ -10,7 +10,13 @@ The following postmortum outlines the key events leading up to the "de-pegging" 
 | Time | Event |
 | --- | --- |
 | 2021-11-25 | A twitter account by the name of Freddie Raynolds outlined a way to attack the existing model of the UST with a capital of $1B. [Reference link](https://twitter.com/FreddieRaynolds/status/1463960623402913797) | 
+| 2021-12-?? | Terra aggressively syndicates a deal led by "Jump Crypto, Binance Labs," and others to invest $1B at into the Luna Foundation Guard at a staggered investor unlock of 25% each year. Binance never participated. Previous iterations of the deal included "Tiger Global," who also never participated, as the deal lead. |
+| 2021-12-13 | The Anchor Protocol, which had been cashflow-positive for almost all of 2021, becomes cashflow-negative as its deposit popularity outpaces the popularity of its borrowing. It would never regain cashflow positivity. [Reference link](https://grafana.luigi311.com/d/7j96rRI7z/anchor?orgId=2&from=now-1y&to=now) |
+| 2021-12-27 | Crypto blogger "Recovering TradFi Chad" posts a lengthy speculative critique of the Degenbox, Anchor's deteriorating solvency, and the institutional investor private placement, arguing that Anchor is being run in the ground to artificially inflate LUNA's price and lock liquidity into the Astroport DEX which was about to launch at the time. [Reference link](https://recoveringtradfichad.substack.com/p/the-great-luna-pump-a-kwon-sestagalli) |
+| 2022-02-17 | Do Kwon injects $450M into the Anchor Protocol to keep Anchor's 20% yield operational. [Reference Link](https://forecrypto.net/terra-injects-450m-ust-into-anchor-reserve-days-before-protocol-depletion-2/) |
+| 2022-03-?? | Anchor's Reserve rapidly deteriorates as deposit inflows accelerate. On the Anchor governance forums, ParaFi, Arca, Polychain and others propose various methods of reducing Anchor's yield. [Reference Link](https://dirtroads.substack.com/p/-34-anchor-protocol-too-big-to-thrive) Terra devs heap unanimous scorn on the Arca and Parafi proposals on Twitter. Ultimately Anchor settles on a 6 month roadmap to reduce the yield to ~12%, vs cashflow breakeven of ~6%.|
 | 2022-04-13 | Luna Foundation Guard acquires more BTC. [Reference link](https://news.coincu.com/80549-luna-foundation-buys-2500-bitcoin-during-40k/) | 
+| 2022-05-01 | The Terra idle capital ratio, defined as (Anchor deposits - Anchor loans) / (Terra TVL), which stayed at 10% or less through January 2022, has ballooned to 35% of Terra TVL: 35% of total Terra TVL ($12B) is now overnight liquidity doing nothing but farming the Anchor yield, able to vanish at the first sign of trouble. |
 | 2022-05-06 | Luna Foundation Guard acquires more BTC in OTC trading with Genesis Trading & 3AC. [Reference link](https://news.coincu.com/86477-luna-has-acquired-37863-bitcoins/) | 
 | 2022-05-07 | Large amounts of UST withdrawn from Anchor Protocol. | 
 | 2022-05-08 | UST was sold off on UST-3pool with about 285 million UST sold on Binance and Curve. 3pool almost recovered at the end of the day, which causes another discharge of UST into the markets. This time that resulted in the UST rate skyrocketing to around 65%. | 
@@ -28,22 +34,28 @@ The following postmortum outlines the key events leading up to the "de-pegging" 
 | 2022-06-05 | Terra Rebels submit 3 different PRs to Terra Money in order to re-enable functionality that was disabled without a proper governance vote. [#775](https://github.com/terra-money/classic-core/pull/775), [#776](https://github.com/terra-money/classic-core/pull/776) & [#778](https://github.com/terra-money/classic-core/pull/778) |
 | 2022-06-12 | Terra Rebels begin working on "burn tax" proposals. |
 | 2022-06-19 | Terra Rebels have yet to hear anything from TFL & LFG. |
+| 2022-06-22 | Terra Proposal 4095, "Re-enable Staking/Delegation to Existing Active Validator Set Only," passes with 90.67% of 165,318,228 staked LUNC. 43 validators voted yes, 5 abstained, and none were rejected or vetoed. |
+| 2022-06-22 | Validators who Abstained included ChainLayer, danku_zone w/ DAIC, Mr. K, Easy 2 Stake, and TTLG Money. |
+| 2022-06-22 | Validators who didn't vote included Orion.Money (14.13%), hashed (4.13%), DSRV (3.06%), Figment (2.76%), Certus One (2.45%), Terran One (2.45%), Terra Bites (1.95%), Aardvark (1.74%), StakeWith.Us (1.67%), Staked (1.55%), blockscape, BinanceStaking, MANTRA DAO, ISS, TerraIsMoreThanUST, 319B5FDFEF84, 0base.vc, Mosaic, RockX, Arrington XRP Capital, coinbevy, TerraDactyl, Craig, Inotel, SeltonStake.com - sunsetting soon, KiKi Finance, Pixy, OneStar, TaiPanich, MissionControl, Galactic Punks Validator, Stake5 Labs, DACM (.09%), and appx 15 others with negligible votes. |
 
 ## Contributing Factors
 
 - 20% interest on UST in Anchor with a fractional reserve banking system was never going to work. Most likely early investors knew this.
 - Failure to provide sufficient collateralization to the UST market enabled the publically disclosed exploit to be used to crash UST & LUNA markets.
 - Inexperienced management in TFL & LFG lead to bad decission making during the de-pegging event which cost billions of USD and minted trillions of LUNA.
+- Hypercentralized management of the LFG meant that Kwon, in consultation with Jump Crypto, made all decisions. Other LFG Multisig signatories (Remi Tetot, Delphi, Nicholas Platias) were unable or unwilling to exercise meaningful independent judgment. 
+- Nexus and Prism were the only two major protocols whose employees weren't direct employees of TFL. The entire rest of the "ecosystem" was beholden to Kwon in various off-chain ways, usually depending on him for a paycheck and/or protocol funding.
 - Proposing the "Terra Ecosystem Revival Plan" caused the existing ecosystem to fracture with all the "bag holders" left behind on Terra Classic and all the "smart money" moving to Terra v2.
 - TFL & LFG refusal to engage with the Terra Rebels developer community caused people to leave the Terra ecosystem permanently and is preventing the Terra Classic governance system from working as intended.
 
 
 ## Lessons Learned
 
-- Dont do fractional reserve banking with a 100% debt-2-asset ratio and unlimited supply cap.
-- Dont let inexperienced managers handle billions of USD while greedy VCs are pushing them to launch unfinished products.
-- Dont try to defend a synthetic derivative (UST) if your core asset (LUNA) is under threath.
-- Dont take out million of USD for personal profit when your system is clearly illiquid by an order of magnitude.
+- Don't do fractional reserve banking with a 100% debt-2-asset ratio and unlimited supply cap.
+- During a crisis, transparency is critical to helping the community make informed judgment. Reserve management to defend the currency peg must be open and transparent at all costs.
+- "If you don't know where the yield is coming from, it's probably you."
+- Power corrupts and absolute power corrupts absolutely. "We'll get to centralization later" invariably turns into "Decentralization is great to talk about, but between you and me, decentralization isn't happening anytime soon." The opportunities created by protocol centralization (information asymmetry, self-dealing, etc) are irresistible for virtually everyone.
+- If a mechanism appears purely worthless or parasitic to the ecosystem (like the Degenbox), it very likely is.
 
 ## Action Items
 
